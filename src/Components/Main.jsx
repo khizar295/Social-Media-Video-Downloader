@@ -8,7 +8,7 @@ import { AiFillTikTok } from "react-icons/ai";
 export default function Main() {
   return (
     <div>
-      <marquee behavior="alternate">
+      <marquee behavior="">
         Proper link is required to download video
       </marquee>
 
@@ -58,7 +58,7 @@ export default function Main() {
       </div>
 
       <marquee
-        behavior="alternate"
+        behavior=""
       >
         No other platform's link will be supported || No other text instead of
         link will be supported

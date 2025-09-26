@@ -11,3 +11,9 @@ body{
 .fb-home{
     height: 85vh;
 }
+
+@media (max-width: 900px) {
+  .fb-home{
+    min-height: 120vh;
+  }
+}
