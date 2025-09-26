@@ -1,0 +1,13 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.navbar {
+  height: 10vh;
+}
+.main {
+  height: 80vh;
+}
+.fb-home{
+    height: 85vh;
+}
