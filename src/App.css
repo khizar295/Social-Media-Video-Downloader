@@ -12,8 +12,16 @@ body{
     height: 85vh;
 }
 
+.download{
+  height: 64vh;
+}
 @media (max-width: 900px) {
   .fb-home{
     min-height: 120vh;
+  }
+}
+@media (max-width: 500px){
+  .how-download{
+    margin-top: 400px;
   }
 }
