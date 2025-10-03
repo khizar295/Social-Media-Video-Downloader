@@ -169,7 +169,7 @@ export default function Facebook() {
           to="/"
           className="block bg-red-500 w-[60%] sm:w-[40%] md:w-[20%] mx-auto hover:bg-red-400 py-2.5 sm:py-3.5 rounded-sm border border-red-600 transition text-white text-center font-bold px-4 sm:px-6 mt-5 text-sm sm:text-base"
         >
-          Go to HomePage
+          Go Back
         </Link>
       </div>
 

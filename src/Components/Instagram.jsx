@@ -59,7 +59,6 @@ export default function Facebook() {
   };
 
   return (
-    <div>
       <div className="fb-home bg-gray-900 flex flex-col justify-center min-h-screen">
         <button className="flex flex-col items-center mx-auto px-4 py-3 sm:px-6 sm:py-4 bg-gradient-to-r from-yellow-600 via-orange-700 via-pink-700 via-purple-800 to-blue-600 text-white rounded-xl transition duration-300 hover:brightness-75 font-bold w-32 sm:w-40">
           <IoLogoInstagram className="text-5xl sm:text-6xl md:text-7xl" />
@@ -169,65 +168,8 @@ export default function Facebook() {
           to="/"
           className="block bg-red-500 w-[60%] sm:w-[40%] md:w-[20%] mx-auto hover:bg-red-400 py-2.5 sm:py-3.5 rounded-sm border border-red-600 transition text-white text-center font-bold px-4 sm:px-6 mt-5 text-sm sm:text-base"
         >
-          Go to HomePage
+          Go Back
         </Link>
       </div>
-
-      <div className="download mt-16 flex flex-col md:flex-row items-center md:items-start md:ms-37">
-        <div className="text-center md:text-left">
-          <h1 className="text-4xl font-bold text-red-500">
-            Instagram Videos Download
-          </h1>
-          <p className="text-lg mt-8">
-            Have you ever wanted to save a video from Instagram? Maybe you want
-            to <br /> share it with someone else, or perhaps you want to keep it
-            for later. <br /> Whatever the case may be, we have the tool for
-            you. Instagram Video <br /> Downloader is a simple and easy-to-use
-            tool that lets you download your <br /> videos from Instagram. It's
-            never been easier to save and share your favorite <br /> Instagram
-            videos with friends, family, and anyone who loves them as much{" "}
-            <br /> as you do. With our simple and easy-to-use tool, you can
-            download all the <br /> videos you want from Instagram and save them
-            on your computer or <br /> mobile device.
-          </p>
-        </div>
-        <div className="mt-10 md:mt-0 md:ms-10 flex justify-center">
-          <img src={Img1} alt="" className="w-3/4 md:w-75" />
-        </div>
-      </div>
-
-      <div className="min-h-[146px] px-4 how-download">
-        <div className="bg-gray-900 w-full max-w-[980px] mx-auto rounded-3xl py-13 px-6 md:px-26">
-          <h1 className="text-white text-2xl md:text-[2.6em] font-medium">
-            How to download video from Instagram?
-          </h1>
-
-          <h1 className="text-white text-xl md:text-[2em] font-bold mt-9">
-            1. Copy the URL
-          </h1>
-          <p className="text-white text-base md:text-[1.1em] mt-1 leading-relaxed">
-            Open the Instagram app or website, go to the photo, video, reels,
-            carousel or IGTV you want to download. Copy the URL.
-          </p>
-
-          <h1 className="text-white text-xl md:text-[2em] font-bold mt-8">
-            2. Paste the link
-          </h1>
-          <p className="text-white text-base md:text-[1.1em] mt-1 leading-relaxed">
-            Return to the Downloader website, paste the link into the input
-            field at the top of the page and click the "Download" button to
-            start downloading.
-          </p>
-
-          <h1 className="text-white text-xl md:text-[2em] font-bold mt-8">
-            3. Download video
-          </h1>
-          <p className="text-white text-base md:text-[1.1em] mt-1 leading-relaxed">
-            Review the results and find the file you want to download. Click the
-            "Download" button. Ready! The file is saved to your device.
-          </p>
-        </div>
-      </div>
-    </div>
   );
 }
